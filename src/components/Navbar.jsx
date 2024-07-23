@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
-import { AiOutlineHome, AiOutlineUser, AiOutlineFundProjectionScreen, AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineFundProjectionScreen, AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 import pdf from "../Assets/Resume-Kuldeep.pdf"; // Adjust path as needed
 
 function NavBar() {
@@ -87,6 +87,17 @@ function NavBar() {
                 <AiOutlineDownload style={{ marginBottom: "2px" }} /> Download CV
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="mailto:kuldiprathod375@gmail.com"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact Me
+              </Nav.Link>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

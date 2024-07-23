@@ -5,6 +5,8 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineX,
+  AiFillMail,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
@@ -21,49 +23,53 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
+                href="mailto:kuldiprathod375@gmail.com"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
                 href="https://github.com/Kuldeep-Rathod"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://x.com/kuldeep_rtd"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineX />
-              </a>
-            </li>
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/kuldeep-rtd/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://wa.me/918780042872?text=Hey%2C%20Kuldeep%21"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaWhatsapp />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/kuldeep_rtd"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
