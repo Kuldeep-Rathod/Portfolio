@@ -10,6 +10,8 @@ import memoryCardGame from "../../Assets/Projects/memoryCardGame.png"
 import guessNumber from "../../Assets/Projects/guessNumber.png"
 import microsoftClone from "../../Assets/Projects/microsoftClone.png"
 import foodOrder from "../../Assets/Projects/foodOrder.png"
+import adminDashboard from "../../Assets/Projects/adminDashboard.png"
+import mernTodo from "../../Assets/Projects/mernTodo.png"
 
 
 
@@ -25,6 +27,28 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={adminDashboard}
+              isBlog={false}
+              title="Admin Dashboard"
+              description="I developed an admin dashboard for an e-commerce website using React.js and TypeScript. The dashboard provides features like product management, order tracking, user management, and analytics, enabling administrators to efficiently manage and oversee the platform’s operations. The use of TypeScript ensures type safety and scalability, while React.js delivers a dynamic and responsive user interface."
+              ghLink="https://github.com/Kuldeep-Rathod/Admin-Dashboard.git"
+              demoLink="https://admin-dashboard-wheat-nu.vercel.app/admin/dashboard"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mernTodo}
+              isBlog={false}
+              title="MERN ToDo App"
+              description="I developed an authenticated To-Do application using the MERN stack (MongoDB, Express.js, React.js, Node.js). The app allows users to securely register, log in, and manage their tasks. With real-time updates and intuitive UI, it offers features like task creation, updation, deletion, and categorization, ensuring seamless task management with persistent user sessions."
+              ghLink="https://github.com/Kuldeep-Rathod/BackendAPI"
+              demoLink="https://frontend-todo-hazel.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blogApp}
