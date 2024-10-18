@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { BiLogoGithub } from "react-icons/bi";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -32,7 +33,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <BiLogoGithub />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
