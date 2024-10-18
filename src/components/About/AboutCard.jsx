@@ -14,7 +14,7 @@ function AboutCard() {
             <br />
             <br />
             I’m passionate about programming and have honed my skills in
-            JavaScript, React.js, and other modern technologies. I’m excited to
+            React.js, JavaScript, TypeScript, NodeJS and other modern technologies. I’m excited to
             explore opportunities in web development and innovative tech
             solutions.
             <br />

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
     BiLogoTypescript,
     BiLogoJavascript,
@@ -10,25 +9,12 @@ import {
     BiLogoHtml5,
     BiLogoCss3,
     BiLogoRedux,
-    BiLogoGithub,
     BiLogoGit,
     BiLogoCPlusPlus,
 } from "react-icons/bi";
 
-import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMongodb,
-    DiGit,
-} from "react-icons/di";
-import {
-    SiTailwindcss,
-    SiHtml5,
-    SiCss3,
-    SiRedux,
-    SiMysql,
-} from "react-icons/si";
+import { DiReact } from "react-icons/di";
+import { SiMysql } from "react-icons/si";
 
 function Techstack() {
     return (
